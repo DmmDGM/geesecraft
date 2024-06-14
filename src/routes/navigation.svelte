@@ -32,9 +32,7 @@
 	import { onMount } from "svelte";
 
 	// Initializes selector
-	let active = false;
-	let selector: HTMLButtonElement;
-	let selections = {
+	const selections = {
 		"": { name: "Home", pin: true },
 		"s5": { name: "Season 5", pin: true },
 		"s4": { name: "Season 4", pin: true },
@@ -44,6 +42,8 @@
 	};
 	$: pathname = $page.url.pathname.split("/")[1].toLowerCase();
 	$: selected = pathname in selections ? selections[pathname as keyof typeof selections] : { name: "Not Found", pin: false };
+	let active = false;
+	let selector: HTMLButtonElement;
 	onMount(() => {
 		document.addEventListener("click", (event) => active = event.target === selector && active === false);
 	});
