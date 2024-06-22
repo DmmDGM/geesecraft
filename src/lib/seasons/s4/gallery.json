@@ -1,3 +1,94 @@
 {
-	
+	"absolutely_balling.png": {
+        "description": "Screenshot of over 4 stacks of carbon plates, the stupidest thing to craft in Tech Reborn.",
+        "name": "Absolutely Ballin'"
+    },
+    "base_of_operations.png": {
+        "description": "The basement of iiPython's house during the Ad Astra segment of the season.",
+        "name": "Base of Operations"
+    },
+    "black_dmmd.png": {
+        "description": "Found an illegal inside the tech basement.",
+        "name": "Black DmmD"
+    },
+    "couple_crystals.png": {
+        "description": "An entire double chest filled with lapotron crystals (expensive asf).",
+        "name": "Couple Crystals"
+    },
+    "escaping_from_venus.png": {
+        "description": "iiPython escaping from Venus after getting trapped without a launchpad, and then making one using scavenged parts from a structure.",
+        "name": "Escaping From Venus"
+    },
+    "goose_rockets.png": {
+        "description": "Both of our main Ad Astra rockets during the Goose space race.",
+        "name": "Goose Rockets"
+    },
+    "goose_space_suits.png": {
+        "description": "The space suits we used to go to the Moon in Ad Astra. Netherite wasn't cheap so we only had one.",
+        "name": "Goose Space Suits"
+    },
+    "inf_uu_matter_lmao.png": {
+        "description": "102,000+ pieces of UU-Matter stored inside of our ME storage system.",
+        "name": "Infinite UU-Matter"
+    },
+    "look_at_all_that_coal.png": {
+        "description": "16+ stacks of coal ore used to craft carbon plates.",
+        "name": "Look at All That Coal"
+    },
+    "looking_chilly.png": {
+        "description": "Photo of K4ffu suffocating on the Moon surface.",
+        "name": "Looking Chilly"
+    },
+    "moon_base_v1.png": {
+        "description": "DmmD attempting to build an interdimensional ME gateway on the old Moon (Agape Space).",
+        "name": "Moon Base v1"
+    },
+    "nuke.png": {
+        "description": "Random photo of a Nuke we set off a few hundred blocks away from base.",
+        "name": "Nuke"
+    },
+    "pillagers.png": {
+        "description": "Looking down at all those poor pillagers while floating on my jetpack.",
+        "name": "Pillagers"
+    },
+    "race_to_space.png": {
+        "description": "DmmD and iiPython heading to the Ad Astra Moon for the first time in our dual rockets.",
+        "name": "Race to Space"
+    },
+    "silly_dmmd.png": {
+        "description": "Photo of DmmD wearing a Tech Reborn quantum suit, and looking quite silly while doing so.",
+        "name": "Silly DmmD"
+    },
+    "skill_issue.png": {
+        "description": "iiPython's primary weapon for Season 4, a Nanosaber with Sharpness 5.",
+        "name": "Skill Issue?"
+    },
+    "thats_a_lot_of_dirt.png": {
+        "description": "Photo of all the dropped dirt items from DmmD and iiPython excavating to create a Bad Omen farm.",
+        "name": "That's a Lot of Dirt"
+    },
+    "trading_in_2023.png": {
+        "description": "Bunch of cake that iiPython had to buy in order to level up villagers.",
+        "name": "Trading in 2023"
+    },
+    "uu_factory_1.png": {
+        "description": "Photo #1 of the UU-Matter factory, showing off the overall structure.",
+        "name": "UU Factory #1"
+    },
+    "uu_factory_2.png": {
+        "description": "Photo #2 of the UU-Matter factory, showing off the cobblestone generator.",
+        "name": "UU Factory #2"
+    },
+    "uu_factory_3.png": {
+        "description": "Photo #3 of the UU-Matter factory, showing off the automatic crafting system for cobblestone slabs.",
+        "name": "UU Factory #3"
+    },
+    "wandering_scammer.png": {
+        "description": "Photo of captions from the Geese resource pack.",
+        "name": "Wandering Scammer"
+    },
+    "weird_selfie.png": {
+        "description": "Selfie of DmmD and iiPython in the original tech basement (after Ad Astra).",
+        "name": "Weird Selfie"
+    }
 }
