@@ -9,7 +9,7 @@ export namespace Season {
 		mods: {
 			[mod: string]: {
 				url: string;
-				type: "mod" | "plugin" | "neither";
+				type: "mod" | "plugin" | "other";
 			}
 		};
 		name: string;
