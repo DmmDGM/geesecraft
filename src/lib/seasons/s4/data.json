@@ -1,3 +1,77 @@
 {
-	"name": "Season 4"
+	"active": false,
+	"accomplishments": [
+        "Colonized the moon",
+        "Created infinite UU-Matter",
+        "Raid farm, XP farm, Bad omen farm",
+        "Wi-Fi Item Network",
+        "Free Food from McGeese"
+	],
+	"description": "Geesecraft Season 4: Modded Mess",
+	"end": 1726790400000,
+	"members": [
+		"DmmDGaming",
+        "iiPythonx",
+        "pwffy",
+        "Ernesto",
+        "RomeoWasAsleep"
+	],
+	"mods": {
+		"Ad Astra": {
+			"url": "https://modrinth.com/mod/ad-astra",
+			"type": "mod"
+		},
+		"Adorn": {
+			"url": "https://modrinth.com/mod/adorn",
+			"type": "mod"
+		},
+		"Agape Space": {
+			"url": "https://www.curseforge.com/minecraft/mc-mods/moon-and-space-dimensions-fabric",
+			"type": "mod"
+		},
+		"Applied Energistics 2": {
+			"url": "https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2",
+			"type": "mod"
+		},
+		"BlueMap": {
+			"url": "https://modrinth.com/plugin/bluemap",
+			"type": "plugin"
+		},
+		"Chunkloaders": {
+			"url": "https://www.curseforge.com/minecraft/mc-mods/chunk-loaders/files",
+			"type": "mod"
+		},
+		"Croptopia": {
+			"url": "https://www.curseforge.com/minecraft/mc-mods/croptopia",
+			"type": "mod"
+		},
+		"Iron Jetpacks": {
+			"url": "https://modrinth.com/mod/iron-jetpacks",
+			"type": "mod"
+		},
+		"Not Just Biomes": {
+			"url": "https://modrinth.com/mod/not-just-biomes",
+			"type": "mod"
+		},
+		"SimpleDiscordLink": {
+			"url": "https://modrinth.com/mod/sdlink",
+			"type": "mod"
+		},
+		"Tech Reborn": {
+			"url": "https://www.curseforge.com/minecraft/mc-mods/techreborn",
+			"type": "mod"
+		},
+		"UU-Extended": {
+			"url": "https://modrinth.com/mod/uu-extended",
+			"type": "mod"
+		},
+		"WTHIT": {
+			"url": "https://modrinth.com/mod/wthit",
+			"type": "mod"
+		}
+	},
+	"name": "Season 4",
+	"start": 1719360000000,
+	"version": "1.20.1",
+	"world": "https://cdn.iipython.dev/geesecraft/GC_S4M.7z"
 }

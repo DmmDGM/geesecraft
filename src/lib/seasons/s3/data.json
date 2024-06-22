@@ -1,3 +1,38 @@
 {
-	
+	"active": false,
+	"accomplishments": [
+        "Stable economy",
+        "DmmD learning how to do 2-block wall jumps",
+        "Ender dragon no longer exists",
+        "Mayor election (ofc DmmD won)",
+        "Efficient end XP farm",
+        "Massive farm made by Emy"
+	],
+	"description": "Vanilla season 3 in spring!",
+	"end": 1686355200000,
+	"members": [
+        "Dm123321_31mD",
+        "iiPython_",
+        "pwffy",
+        "rockttlol",
+        "K4ffu"
+	],
+	"mods": {
+		"DiscordSRV": {
+			"url": "https://www.spigotmc.org/resources/discordsrv.18494/",
+			"type": "plugin"
+		},
+		"GSit": {
+			"url": "https://www.spigotmc.org/resources/gsit-modern-sit-seat-and-chair-lay-and-crawl-plugin-1-13-x-1-19-x.62325/",
+			"type": "plugin"
+		},
+		"RHLeafDecay": {
+			"url": "https://www.spigotmc.org/resources/%E2%98%84%EF%B8%8F-rhleafdecay-fast-and-smooth-leaf-decay-1-20-6-1-21-0.83581/",
+			"type": "plugin"
+		}
+	},
+	"name": "Season 3",
+	"start": 1675468800000,
+	"version": "1.19",
+	"world": "https://cdn.iipython.dev/geesecraft/GC_S3M.7z"
 }
