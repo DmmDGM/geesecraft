@@ -1,29 +1,29 @@
 {
-	"active": false,
 	"accomplishments": [
-        "Killed the Warden",
-        "Defeated the Wither (quite easily)",
-        "Villager trading center",
-        "XP/Slime/Raid/Iron/Gunpowder farms",
-        "Large Geesetown with bridge"
+		"Killed the Warden",
+		"Defeated the Wither (quite easily)",
+		"Villager trading center",
+		"XP/Slime/Raid/Iron/Gunpowder farms",
+		"Large Geesetown with bridge"
 	],
+	"active": false,
 	"description": "The first proper Geesecraft season",
 	"end": 1662681600000,
 	"members": [
-        "tonyz1111",
-        "Dm123321_31mD",
-        "iiErnie",
-        "emiqual",
-        "iiPython_"
+		"tonyz1111",
+		"Dm123321_31mD",
+		"iiErnie",
+		"emiqual",
+		"iiPython_"
 	],
 	"mods": {
 		"DiscordSRV": {
-			"url": "https://www.spigotmc.org/resources/discordsrv.18494/",
-			"type": "plugin"
+			"type": "plugin",
+			"url": "https://www.spigotmc.org/resources/discordsrv.18494/"
 		},
 		"GSit": {
-			"url": "https://www.spigotmc.org/resources/gsit-modern-sit-seat-and-chair-lay-and-crawl-plugin-1-13-x-1-19-x.62325/",
-			"type": "plugin"
+			"type": "plugin",
+			"url": "https://www.spigotmc.org/resources/gsit-modern-sit-seat-and-chair-lay-and-crawl-plugin-1-13-x-1-19-x.62325/"
 		}
 	},
 	"name": "Season 2",

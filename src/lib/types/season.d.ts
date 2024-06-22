@@ -1,8 +1,8 @@
 // Defines namespace
 export namespace Season {
 	export type Data = {
-		active: boolean;
 		accomplishments: string[];
+		active: boolean;
 		description: string;
 		end: number;
 		members: string[];

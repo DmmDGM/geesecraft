@@ -1,26 +1,26 @@
 {
-	"active": false,
 	"accomplishments": [
-        "Geesetown",
-        "Economy that didn't immediately crash",
-        "Beautiful park designed by DmmD",
-        "Slained the Wither"
+		"Geesetown",
+		"Economy that didn't immediately crash",
+		"Beautiful park designed by DmmD",
+		"Slained the Wither"
 	],
+	"active": false,
 	"description": "The original Geesecraft season.",
 	"end": 1631664000000,
 	"members": [
-        "Dm123321_31mD",
-        "emiqual",
-        "iiPython_"
+		"Dm123321_31mD",
+		"emiqual",
+		"iiPython_"
 	],
 	"mods": {
 		"EssentialsX": {
-			"url": "https://essentialsx.net/",
-			"type": "plugin"
+			"type": "plugin",
+			"url": "https://essentialsx.net/"
 		},
 		"GSit": {
-			"url": "https://www.spigotmc.org/resources/gsit-modern-sit-seat-and-chair-lay-and-crawl-plugin-1-13-x-1-19-x.62325/",
-			"type": "plugin"
+			"type": "plugin",
+			"url": "https://www.spigotmc.org/resources/gsit-modern-sit-seat-and-chair-lay-and-crawl-plugin-1-13-x-1-19-x.62325/"
 		}
 	},
 	"name": "Season 1",
