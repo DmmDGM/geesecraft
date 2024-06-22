@@ -1,11 +1,8 @@
 // Imports
 import type { Season } from "$lib/types/season";
 
-// Loads season data
-export async function loadSeason(id: string): Promise<{
-	gallery: Season.Gallery,
-	data: Season.Data
-}> {
+// Loads default data
+export function loadDefaultSeason(): Season.Season {
 	// Defines data
 	const data: Season.Data = {
 		accomplishments: [],
@@ -19,7 +16,16 @@ export async function loadSeason(id: string): Promise<{
 		version: "",
 		world: null
 	};
-	const gallery = {};
+	const gallery: Season.Gallery = {};
+
+	// Returns data
+	return { data, gallery };
+}
+
+// Loads season data
+export async function loadSeason(id: string): Promise<Season.Season> {
+	// Defines data
+	const { data, gallery } = loadDefaultSeason();
 
 	// Fetches data
 	try {

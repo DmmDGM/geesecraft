@@ -4,7 +4,9 @@
 	<Navigation />
 	
 	<!-- Slot -->
-	<slot />
+	<main>
+		<slot />
+	</main>
 </div>
 
 <!-- Script -->
@@ -22,5 +24,14 @@
 	#content {
 		display: flex;
 		flex-direction: column;
+		height: 100%;
+	}
+
+	// Slot
+	main {
+		align-items: center;
+		flex: 1;
+		justify-content: center;
+		padding: 25px 0px;
 	}
 </style>

@@ -1,5 +1,6 @@
 // Defines namespace
 export namespace Season {
+	// Defines types
 	export type Data = {
 		accomplishments: string[];
 		active: boolean;
@@ -17,12 +18,14 @@ export namespace Season {
 		version: string;
 		world: string | null;
 	};
-	
 	export type Gallery = {
 		[ image: string ]: {
 			description: string;
 			name: string;
 		}
 	};
+	export type Season = {
+		data: Data;
+		gallery: Gallery;
+	};
 };
-

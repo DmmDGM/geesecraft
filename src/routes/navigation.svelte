@@ -9,7 +9,7 @@
 			<div class="soda-droplist">
 				{#each Object.entries(compassCodes) as [ compassPath, compassCode ]}
 					{#if compassCode.pinned === true}
-						<a href="/{compassPath}">{compassCode.name}</a>
+						<a href="/{ compassPath }">{ compassCode.name }</a>
 					{/if}
 				{/each}
 			</div>
@@ -19,7 +19,9 @@
 	<!-- Links -->
 	<div id="links">
 		{#each Object.entries(links) as [ linkName, linkUrl ]}
-			<a href={linkUrl} target="_blank" rel="noopener noreferrer" class="soda-button">{linkName}</a>
+			<a href={ linkUrl } target="_blank" rel="noopener noreferrer" class="soda-button">
+				{ linkName }
+			</a>
 		{/each}
 	</div>
 </nav>
