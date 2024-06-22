@@ -6,9 +6,13 @@
 <!-- Content -->
 <div id="content">
 	<!-- Navigation -->
-	<div id="navigation">
-		<Navigation />
-	</div>
+	<nav>
+		<!-- Title -->
+		<Title />
+
+		<!-- Links -->
+		<Links />
+	</nav>
 
 	<!-- Main -->
 	<main>
@@ -21,32 +25,32 @@
 	// Imports
 	import "$lib/soda/grape.scss";
 	import "$lib/soda/vanilla.scss";
-	import Navigation from "./navigation.svelte";
+	import "$lib/soda/cherry.scss";
+	import Links from "./links.svelte";
+	import Title from "./title.svelte";
 </script>
 
 <!-- Style -->
-<style lang="scss">
-	// Global
-	:global {
-		// Imports
-		@import "src/lib/soda/apple.scss";
-
-		// Defaults
-		* {
-			color: rgb(var(--soda-rgb-white));
-			scrollbar-color: rgb(var(--soda-rgb-white)) rgb(var(--soda-rgb-black));
-		}
-
-		// Body
-		body {
-			background-color: rgb(var(--soda-rgb-black));
-		}
-	}
-	
+<style lang="scss">	
 	// Content
 	#content {
 		display: flex;
 		flex-direction: column;
+	}
+
+	// Navigation
+	nav {
+		align-items: center;
+		display: flex;
+		justify-content: space-between;
+		padding: 15px 20px;
+	}
+
+	@media screen and (max-width: 750px) {
+		nav {
+			flex-direction: column;
+			justify-content: center;
+		}
 	}
 
 	// Main
