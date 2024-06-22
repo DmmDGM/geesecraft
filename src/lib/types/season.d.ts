@@ -8,8 +8,8 @@ export namespace Season {
 		members: string[];
 		mods: {
 			[mod: string]: {
-				url: string;
 				type: "mod" | "plugin" | "other";
+				url: string;
 			}
 		};
 		name: string;
