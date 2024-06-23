@@ -9,7 +9,7 @@ export function loadDefaultSeason(): Season.Season {
 		active: false,
 		description: "",
 		end: null,
-		members: [],
+		members: {},
 		mods: {},
 		name: "",
 		start: null,
@@ -29,8 +29,8 @@ export async function loadSeason(id: string): Promise<Season.Season> {
 
 	// Fetches data
 	try {
-		Object.assign(data, await import(`$lib/seasons/${id}/data.json`));
-		Object.assign(gallery, await import(`$lib/seasons/${id}/gallery.json`));
+		Object.assign(data, (await import(`$lib/seasons/${id}/data.json`)).default);
+		Object.assign(gallery, (await import(`$lib/seasons/${id}/gallery.json`)).default);
 	}
 	catch(error) {
 		console.error("An error occurred while fetching season data");

@@ -1,32 +1,26 @@
-<!-- Accomplishments -->
-<div id="accomplishments">
-	<div class="heading">Accomplishments</div>
-	{#each data.accomplishments as accomplishment}
-		<div class="content">- { accomplishment }</div>
-	{/each}
+<!-- Gallery -->
+<div id="gallery">
+	<div class="heading">Gallery</div>
+	
 </div>
 
 <!-- Script -->
 <script lang="ts">
 	// Imports
 	import type { Season } from "$lib/types/season";
-	export let data: Season.Data;
+	export let gallery: Season.Gallery;
+
+	// Defines gallery loader
+	let loaded: string[] = [];
+	console.log({gallery});
 </script>
 
 <!-- Style -->
 <style lang="scss">
-	// Accomplishments
-	#accomplishments {
-		display: flex;
-		flex-direction: column;
-		gap: 5px 0px;
-		
+	// Gallery
+	#gallery {
 		.heading {
 			font-weight: bold;
-		}
-
-		.content {
-			color: rgba(var(--soda-theme-foreground), 0.75);
 		}
 	}
 </style>

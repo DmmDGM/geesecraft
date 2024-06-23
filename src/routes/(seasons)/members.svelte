@@ -1,8 +1,8 @@
 <!-- Mebers -->
 <div id="members">
 	<div class="heading">Members</div>
-	{#each data.members as member}
-		<div class="content">- { member }</div>
+	{#each Object.entries(data.members) as [ uuid, username ]}
+		<div class="content">- { username } ({ mapUUID(uuid) })</div>
 	{/each}
 </div>
 
@@ -10,7 +10,13 @@
 <script lang="ts">
 	// Imports
 	import type { Season } from "$lib/types/season";
+	import uuids from "$lib/data/uuids.json";
 	export let data: Season.Data;
+
+	// Defines uuid mapper
+	function mapUUID(uuid: string): string {
+		return uuids[uuid as keyof typeof uuids];
+	}
 </script>
 
 <!-- Style -->

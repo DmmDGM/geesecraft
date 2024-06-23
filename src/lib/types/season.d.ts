@@ -6,7 +6,9 @@ export namespace Season {
 		active: boolean;
 		description: string;
 		end: number | null;
-		members: string[];
+		members: {
+			[uuid: string]: string;
+		};
 		mods: {
 			[mod: string]: {
 				type: "mod" | "plugin" | "other";

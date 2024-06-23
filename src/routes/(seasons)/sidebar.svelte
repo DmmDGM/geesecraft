@@ -27,7 +27,7 @@
 		display: flex;
 		flex-direction: column;
 		gap: 5px 0px;
-		width: 250px;
+		width: 300px;
 
 		hr {
 			margin: 25px 0px;
