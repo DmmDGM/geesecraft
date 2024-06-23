@@ -30,6 +30,7 @@
 	// Slot
 	main {
 		align-items: center;
+		display: flex;
 		flex: 1;
 		justify-content: center;
 		padding: 25px 0px;

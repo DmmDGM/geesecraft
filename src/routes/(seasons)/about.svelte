@@ -34,10 +34,15 @@
 		
 		.heading {
 			font-weight: bold;
+			width: fit-content;
 		}
 
 		.content {
 			color: rgba(var(--soda-theme-foreground), 0.75);
+		}
+
+		a {
+			width: fit-content;
 		}
 
 		hr {

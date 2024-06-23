@@ -1,11 +1,12 @@
-<!-- Details -->
-<div id="details">
-	{#await season}
-		Loading...
-	{:then { data, gallery }} 
+{#await season}
+	<!-- Loading -->
+	Loading...
+{:then { data, gallery }} 	
+	<!-- Details -->
+	<div id="details">
 		hai
-	{/await}
-</div>
+	</div>
+{/await}
 
 <!-- Script -->
 <script lang="ts">	
@@ -16,3 +17,11 @@
 	// Fetches season
 	const season = getContext("season") as Promise<Season.Season>;
 </script>
+
+<!-- Style -->
+<style lang="scss">
+	// Details
+	#details {
+		flex: 1;
+	}
+</style>

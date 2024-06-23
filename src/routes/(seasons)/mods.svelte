@@ -31,5 +31,9 @@
 		.heading {
 			font-weight: bold;
 		}
+
+		a {
+			width: fit-content;
+		}
 	}
 </style>
