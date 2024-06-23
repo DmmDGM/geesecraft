@@ -6,9 +6,13 @@
 	<div class="content">Server { data.active === true ? "Active": "Inactive" }</div>
 	<div class="content">Version { data.version }</div>
 	<div class="content">
-		{ new Date(data.start).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" }) }
-		-
-		{ new Date(data.end).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" }) }
+		{ data.start === null ?
+			"N/A" :
+			new Date(data.start).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })
+		} - { data.end === null ?
+			"N/A" :
+			new Date(data.end).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })
+		}
 	</div>
 	{#if data.world === null}
 		<div class="content">World Download Unavailable</div>

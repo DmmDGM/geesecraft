@@ -8,11 +8,11 @@ export function loadDefaultSeason(): Season.Season {
 		accomplishments: [],
 		active: false,
 		description: "",
-		end: 0,
+		end: null,
 		members: [],
 		mods: {},
 		name: "",
-		start: 0,
+		start: null,
 		version: "",
 		world: null
 	};

@@ -5,7 +5,7 @@ export namespace Season {
 		accomplishments: string[];
 		active: boolean;
 		description: string;
-		end: number;
+		end: number | null;
 		members: string[];
 		mods: {
 			[mod: string]: {
@@ -14,7 +14,7 @@ export namespace Season {
 			}
 		};
 		name: string;
-		start: number;
+		start: number | null;
 		version: string;
 		world: string | null;
 	};
