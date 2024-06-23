@@ -1,0 +1,94 @@
+{
+	"accomplishments": [],
+	"active": false,
+	"description": "The next generation Geesecraft season.",
+	"end": null,
+	"members": [
+		"DmmDGaming",
+		"ernistus",
+		"eunyung",
+		"iiPythonx"
+	],
+	"mods": {
+		"Ad Astra": {
+			"type": "mod",
+			"url": "https://modrinth.com/mod/ad-astra"
+		},
+		"Ad-Astra: Giselle Addon": {
+			"type": "mod",
+			"url": "https://modrinth.com/mod/ad-astra-giselle-addon"
+		},
+		"Applied Energistics 2": {
+			"type": "mod",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2"
+		},
+		"Cat Jam": {
+			"type": "mod",
+			"url": "https://modrinth.com/mod/cat_jam"
+		},
+		"Chunkloaders": {
+			"type": "mod",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/chunk-loaders/files"
+		},
+		"Cobblemon": {
+			"type": "mod",
+			"url": "https://modrinth.com/mod/cobblemon"
+		},
+		"Croptopia": {
+			"type": "mod",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/croptopia"
+		},
+        "Discord Integration": {
+            "type": "mod",
+            "url": "https://modrinth.com/plugin/dcintegration"
+        },
+        "Hephaestus": {
+            "type": "mod",
+            "url": "https://modrinth.com/mod/hephaestus"
+        },
+		"Iron Jetpacks": {
+			"type": "mod",
+			"url": "https://modrinth.com/mod/iron-jetpacks"
+		},
+		"Leaves Be Gone": {
+			"type": "mod",
+			"url": "https://modrinth.com/mod/leaves-be-gone"
+		},
+		"Megane": {
+			"type": "mod",
+			"url": "https://modrinth.com/mod/megane"
+		},
+        "Paladin's Furniture": {
+            "type": "mod",
+            "url": "https://modrinth.com/mod/paladins-furniture"
+        },
+        "Sculk Depths": {
+            "type": "mod",
+            "url": "https://modrinth.com/mod/sculk-depths"
+        },
+		"Tech Reborn": {
+			"type": "mod",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/techreborn"
+		},
+        "The Bumblezone": {
+            "type": "mod",
+            "url": "https://modrinth.com/mod/the-bumblezone-fabric"
+        },
+		"UU-Extended": {
+			"type": "mod",
+			"url": "https://modrinth.com/mod/uu-extended"
+		},
+		"WTHIT": {
+			"type": "mod",
+			"url": "https://modrinth.com/mod/wthit"
+		},
+        "You're In Grave Danger": {
+            "type": "mod",
+            "url": "https://modrinth.com/mod/yigd"
+        }
+	},
+	"name": "Season 5",
+	"start": 1719446400000,
+	"version": "1.20.1",
+	"world": null
+}
