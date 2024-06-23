@@ -9,13 +9,13 @@
 	"active": false,
 	"description": "The first proper Geesecraft season",
 	"end": 1662681600000,
-	"members": [
-		"2fb80ffb-b4e8-46be-86f3-e7eae1a6c38f",
-		"d9736929-859d-478a-8575-02cc397673d7",
-		"bf0f7598-e7fe-4e09-b7a2-a1289d907bbd",
-		"617d0b8a-148f-47c0-b4f4-36dfe1ac79c7",
-		"8018c39c-3d81-434e-a02d-6e0813340fd6"
-	],
+	"members": {
+		"d9736929-859d-478a-8575-02cc397673d7": "Dm123321_31mD",
+		"617d0b8a-148f-47c0-b4f4-36dfe1ac79c7": "emiqual",
+		"bf0f7598-e7fe-4e09-b7a2-a1289d907bbd": "iiErnie",
+		"8018c39c-3d81-434e-a02d-6e0813340fd6": "iiPythonx",
+		"2fb80ffb-b4e8-46be-86f3-e7eae1a6c38f": "tonyz1111"
+	},
 	"mods": {
 		"DiscordSRV": {
 			"type": "plugin",

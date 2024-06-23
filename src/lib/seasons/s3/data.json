@@ -10,13 +10,13 @@
 	"active": false,
 	"description": "Vanilla season 3 in spring!",
 	"end": 1686355200000,
-	"members": [
-		"d9736929-859d-478a-8575-02cc397673d7",
-		"8018c39c-3d81-434e-a02d-6e0813340fd6",
-		"617d0b8a-148f-47c0-b4f4-36dfe1ac79c7",
-		"6102acab-975f-42bd-a720-144ca3995585",
-		"bf0f7598-e7fe-4e09-b7a2-a1289d907bbd"
-	],
+	"members": {
+		"d9736929-859d-478a-8575-02cc397673d7": "Dm123321_31mD",
+		"8018c39c-3d81-434e-a02d-6e0813340fd6": "iiPython_",
+		"bf0f7598-e7fe-4e09-b7a2-a1289d907bbd": "K4ffu",
+		"617d0b8a-148f-47c0-b4f4-36dfe1ac79c7": "pwffy",
+		"6102acab-975f-42bd-a720-144ca3995585": "rockttlol"
+	},
 	"mods": {
 		"DiscordSRV": {
 			"type": "plugin",

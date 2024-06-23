@@ -8,11 +8,11 @@
 	"active": false,
 	"description": "The original Geesecraft season.",
 	"end": 1631664000000,
-	"members": [
-		"d9736929-859d-478a-8575-02cc397673d7",
-		"617d0b8a-148f-47c0-b4f4-36dfe1ac79c7",
-		"8018c39c-3d81-434e-a02d-6e0813340fd6"
-	],
+	"members": {
+		"d9736929-859d-478a-8575-02cc397673d7": "Dm123321_31mD",
+		"617d0b8a-148f-47c0-b4f4-36dfe1ac79c7": "emiqual",
+		"8018c39c-3d81-434e-a02d-6e0813340fd6": "iiPython_"
+	},
 	"mods": {
 		"EssentialsX": {
 			"type": "plugin",
