@@ -4,10 +4,10 @@
 {:then { data }}
 	<!-- Season -->
 	<div id="season">
-		<div id="title">{ data.name }</div>
+		<div id="title">{data.name}</div>
 		<div id="content">
 			<slot />
-			<Sidebar { data } />
+			<Sidebar {data} />
 		</div>
 	</div>
 {/await}

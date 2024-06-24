@@ -1,23 +1,21 @@
 <!-- About -->
 <div id="about">
 	<div class="heading">Description</div>
-	<div class="content">{ data.description }</div>
+	<div class="content">{data.description}</div>
 	<hr>
-	<div class="content">Server { data.active === true ? "Active": "Inactive" }</div>
-	<div class="content">Version { data.version }</div>
+	<div class="content">Server {data.active === true ? "Active": "Inactive"}</div>
+	<div class="content">Version {data.version}</div>
 	<div class="content">
-		{ data.start === null ?
-			"N/A" :
+		{data.start === null ? "N/A" :
 			new Date(data.start).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })
-		} - { data.end === null ?
-			"N/A" :
+		} - {data.end === null ? "N/A" :
 			new Date(data.end).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })
 		}
 	</div>
 	{#if data.world === null}
 		<div class="content">World Download Unavailable</div>
 	{:else}
-		<a href="{ data.world }" class="soda-link">World Download Available</a>
+		<a href="{data.world}" class="soda-link">World Download Available</a>
 	{/if}
 </div>
 

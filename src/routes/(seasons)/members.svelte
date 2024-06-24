@@ -2,7 +2,11 @@
 <div id="members">
 	<div class="heading">Members</div>
 	{#each Object.entries(data.members) as [ uuid, username ]}
-		<div class="content">- { username } ({ mapUUID(uuid) })</div>
+		<div class="content">- {username}
+			{#if username !== mapUUID(uuid)}
+				({mapUUID(uuid)})
+			{/if}
+		</div>
 	{/each}
 </div>
 

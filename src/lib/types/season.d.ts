@@ -29,5 +29,6 @@ export namespace Season {
 	export type Season = {
 		data: Data;
 		gallery: Gallery;
+		id: string;
 	};
 };

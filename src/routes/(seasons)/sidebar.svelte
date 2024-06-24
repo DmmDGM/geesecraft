@@ -1,12 +1,12 @@
 <!-- Sidebar -->
 <div id="sidebar">
-	<About { data } />
+	<About {data} />
 	<hr>
-	<Members { data } />
+	<Members {data} />
 	<hr>
-	<Accomplishments { data } />
+	<Accomplishments {data} />
 	<hr>
-	<Mods { data } />
+	<Mods {data} />
 </div>
 
 <!-- Script -->

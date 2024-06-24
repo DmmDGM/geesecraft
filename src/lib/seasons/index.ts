@@ -19,7 +19,7 @@ export function loadDefaultSeason(): Season.Season {
 	const gallery: Season.Gallery = {};
 
 	// Returns data
-	return { data, gallery };
+	return { data, gallery, id: "default" };
 }
 
 // Loads season data
@@ -38,5 +38,5 @@ export async function loadSeason(id: string): Promise<Season.Season> {
 	}
 
 	// Returns data
-	return { data, gallery };
+	return { data, gallery, id };
 }

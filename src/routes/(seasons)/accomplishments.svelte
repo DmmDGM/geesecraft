@@ -2,7 +2,7 @@
 <div id="accomplishments">
 	<div class="heading">Accomplishments</div>
 	{#each data.accomplishments as accomplishment}
-		<div class="content">- { accomplishment }</div>
+		<div class="content">- {accomplishment}</div>
 	{/each}
 </div>
 

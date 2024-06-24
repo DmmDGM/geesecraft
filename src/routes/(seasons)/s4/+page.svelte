@@ -1,11 +1,11 @@
 {#await season}
 	<!-- Loading -->
 	Loading...
-{:then { data, gallery }} 	
+{:then { data, gallery, id }} 	
 	<!-- Details -->
 	<div id="details">
 		hai
-		<Gallery { gallery }/>
+		<Gallery {gallery} {id}/>
 	</div>
 {/await}
 

@@ -5,11 +5,11 @@
 		<enhanced:img src="$lib/images/bread.png" alt="bread" id="bread" />
 		<a href="/" class="soda-underline" id="home">Geesecraft</a>
 		<button class="soda-button">
-			{ compassPointer.name }
+			{compassPointer.name}
 			<div class="soda-droplist">
 				{#each Object.entries(compassCodes) as [ compassPath, compassCode ]}
 					{#if compassCode.pinned === true}
-						<a href="/{ compassPath }">{ compassCode.name }</a>
+						<a href="/{compassPath}">{compassCode.name}</a>
 					{/if}
 				{/each}
 			</div>
@@ -19,8 +19,8 @@
 	<!-- Links -->
 	<div id="links">
 		{#each Object.entries(links) as [ linkName, linkUrl ]}
-			<a href={ linkUrl } target="_blank" rel="noopener noreferrer" class="soda-button">
-				{ linkName }
+			<a href={linkUrl} target="_blank" rel="noopener noreferrer" class="soda-button">
+				{linkName}
 			</a>
 		{/each}
 	</div>
