@@ -1,8 +1,8 @@
 <!-- Zoom -->
 <div id="zoom">
 	<img src={`src/lib/seasons/${id}/gallery/${url}`} alt={url} />
-	<div>{gallery[url].name} ({url})</div>
-	<div>{gallery[url].description}</div>
+	<div class="content">{gallery[url].name} ({url})</div>
+	<div class="content">{gallery[url].description}</div>
 	<a href={`src/lib/seasons/${id}/gallery/${url}`} target="_black" rel="noopener noreferrer" class="soda-link">Open Raw</a>
 	<button class="soda-button" on:click={() => { close(); }}>Close</button>
 </div>
@@ -33,6 +33,11 @@
 		position: fixed;
 		top: 0px;
 		width: 100%;
+
+		.content {
+			text-align: center;
+			width: 60%;
+		}
 
 		img {
 			max-height: 60%;

@@ -6,14 +6,16 @@
 	{:else}
 		{#if loadedUrls.length !== 0}
 			{#if loadedUrls.length !== galleryUrls.length}
-				<button class="soda-button" on:click={() => {
-					loadedUrls = galleryUrls.slice(0, loadedUrls.length + 10);
-				}}> Load More ({galleryUrls.length - loadedUrls.length} Left)
-				</button>
-				<button class="soda-button" on:click={() => {
-					loadedUrls = galleryUrls;
-				}}> Load All ({galleryUrls.length - loadedUrls.length} Left)
-				</button>
+				<div class="soda-button-cluster loader">
+					<button on:click={() => {
+						loadedUrls = galleryUrls.slice(0, loadedUrls.length + 10);
+					}}> Load More ({galleryUrls.length - loadedUrls.length} Left)
+					</button>
+					<button on:click={() => {
+						loadedUrls = galleryUrls;
+					}}> Load All ({galleryUrls.length - loadedUrls.length} Left)
+					</button>
+				</div>
 			{/if}
 			<div id="images">
 				{#each Object.entries(loadedUrls) as [ loadedIndex, loadedUrl ]}
@@ -22,14 +24,16 @@
 			</div>
 		{/if}
 		{#if loadedUrls.length !== galleryUrls.length}
-			<button class="soda-button" on:click={() => {
-				loadedUrls = galleryUrls.slice(0, loadedUrls.length + 10);
-			}}> Load More ({galleryUrls.length - loadedUrls.length} Left)
-			</button>
-			<button class="soda-button" on:click={() => {
-				loadedUrls = galleryUrls;
-			}}> Load All ({galleryUrls.length - loadedUrls.length} Left)
-			</button>
+				<div class="soda-button-cluster loader">
+					<button on:click={() => {
+						loadedUrls = galleryUrls.slice(0, loadedUrls.length + 10);
+					}}> Load More ({galleryUrls.length - loadedUrls.length} Left)
+					</button>
+					<button on:click={() => {
+						loadedUrls = galleryUrls;
+					}}> Load All ({galleryUrls.length - loadedUrls.length} Left)
+					</button>
+				</div>
 		{/if}
 	{/if}
 	{#if zoomIndex !== null}
@@ -80,6 +84,14 @@
 
 		.content {
 			color: rgba(var(--soda-theme-foreground), 0.75);
+		}
+
+		.loader {
+			justify-content: center;
+
+			> * {
+				padding: 10px 25px;
+			}
 		}
 
 		#images {
