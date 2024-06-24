@@ -1,3 +1,78 @@
 {
-	
+    "ban_hammer.png": {
+        "description": "Lame warning that iiPython put on his storage area.",
+        "name": "Ban Hammer"
+    },
+    "breeding_pattern.png": {
+        "description": "DmmD's breeding pattern, a very dumb joke iiPython made.",
+        "name": "Breeding Pattern"
+    },
+    "demolitionist.png": {
+        "description": "Bunch of TNT we used to mine for netherite.",
+        "name": "Demolitionist"
+    },
+    "dmmd_shulkers.png": {
+        "description": "All of DmmD's organized shulkers inside his EChest.",
+        "name": "DmmD's Shulkers"
+    },
+    "first_diamond.png": {
+        "description": "Photo of the first diamonds of the Season, once again claimed by DmmD.",
+        "name": "First Diamonds"
+    },
+    "friendship.png": {
+        "description": "Cute friendship between a Creeper and a Skeleton :3",
+        "name": "Friendship <3"
+    },
+    "hero_of_the_village.png": {
+        "description": "Photo of the aftermath of DmmD and iiPython getting absolutely destroyed by a raid.",
+        "name": "Hero of the Village"
+    },
+    "iipython_shulkers.png": {
+        "description": "iiPython's very organized shulkers inside his EChest.",
+        "name": "iiPython's Shulkers"
+    },
+    "imagine_spawner.png": {
+        "description": "Random note iiPython placed on the first spawner we found.",
+        "name": "\"imagine spawner\""
+    },
+    "invis_spider.png": {
+        "description": "Spider that had a bit too much to drink.",
+        "name": "Invisible Spider"
+    },
+    "janky_shulker.png": {
+        "description": "Paper being Paper and glitching the hell out when we opened a shulker.",
+        "name": "Janky Shulker"
+    },
+    "lightning.png": {
+        "description": "Lightning storm that iiPython totally didn't summon.",
+        "name": "Lightning"
+    },
+    "mountain.png": {
+        "description": "Mountain next to our base that was very fun to ride around with on horseback.",
+        "name": "Mountain"
+    },
+    "nice_head.png": {
+        "description": "DmmD's head that I collected from killing him.",
+        "name": "DmmD's Head"
+    },
+    "nightmare.png": {
+        "description": "iiPython's main weapon of the Season, Nightmare.",
+        "name": "Nightmare."
+    },
+    "no_trespassing.png": {
+        "description": "Another dumb sign iiPython put outside of his house.",
+        "name": "No Trespassing"
+    },
+    "park_at_night.png": {
+        "description": "Photo of the Geese park at night.",
+        "name": "Park at Night"
+    },
+    "spawner.png": {
+        "description": "The second spawner we ever found on the server.",
+        "name": "Spawner"
+    },
+    "turtle_dmmd.png": {
+        "description": "DmmD's head, a note block, and an arrow. What more could you ask more?",
+        "name": "Turtle DmmD"
+    }
 }

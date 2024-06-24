@@ -1,3 +1,122 @@
 {
-	
+    "chilling_on_a_bench.png": {
+        "description": "DmmD and iiPython chillin' on a bench outside the park (work-in-progress).",
+        "name": "Chillin' on a Bench"
+    },
+    "dmmd_looking_up.png": {
+        "description": "DmmD looking at a phantom that got stuck in the stables.",
+        "name": "DmmD Looking Up"
+    },
+    "geese_town.png": {
+        "description": "Photo showing the overview of the work-in-progress Geesetown project.",
+        "name": "Geese Town"
+    },
+    "horse_eating.png": {
+        "description": "Random ass horse that shoved its head in a troph.",
+        "name": "Horse Eating"
+    },
+    "ice_boat.png": {
+        "description": "Photo partially showing Ice-Boat\u2122\ufe0f, the funnest game in Minecraft.",
+        "name": "Ice Boat"
+    },
+    "iipython_at_park.png": {
+        "description": "Photo of iiPython tabbed out at the new Geese park.",
+        "name": "iiPython at Park"
+    },
+    "iipython_at_park2.png": {
+        "description": "Second photo of iiPython at Geese park (but not tabbed out this time).",
+        "name": "iiPython at Park #2"
+    },
+    "iipython_near_stable.png": {
+        "description": "iiPython checking out the new Geese stables, made by DmmD.",
+        "name": "iiPython Near Stable"
+    },
+    "leashed_iron_golem.png": {
+        "description": "Random iron golem we spawned and then held in captivity forever.",
+        "name": "Leashed Iron Golem"
+    },
+    "mob_tower.png": {
+        "description": "Showcase of the storage system for the 3rd XP Farm of the Season.",
+        "name": "Mob Tower"
+    },
+    "park.png": {
+        "description": "General photo of the Geese park DmmD designed.",
+        "name": "Geese Park"
+    },
+    "park2.png": {
+        "description": "Second general photo of the Geese park.",
+        "name": "Geese Park #2"
+    },
+    "park3.png": {
+        "description": "Another photo of Geese park, this time highlighting iiPython's tree.",
+        "name": "Geese Park #3"
+    },
+    "park4.png": {
+        "description": "iiPython's Tree inside Geese Park, this time with shaders.",
+        "name": "Geese Park #4"
+    },
+    "park5.png": {
+        "description": "Photo of the stables and street layout of Geese Park.",
+        "name": "Geese Park #5"
+    },
+    "park6.png": {
+        "description": "Photo of the water fountain in the middle of Geese Park.",
+        "name": "Geese Park #6"
+    },
+    "park7.png": {
+        "description": "Another photo of the Geese Park water fountain, this time with shaders.",
+        "name": "Geese Park #7"
+    },
+    "park8.png": {
+        "description": "More clear photo of the Stables.",
+        "name": "Geese Park #8"
+    },
+    "piller.png": {
+        "description": "Look at that thing, what is that? Right, it's the beginning of a massive achivement-getting death pillar.",
+        "name": "Death Pillar"
+    },
+    "ravine.png": {
+        "description": "Cute little fence we had on the ravine next to base.",
+        "name": "Ravine"
+    },
+    "shop_foundation.png": {
+        "description": "DmmD's foundation for the never finished Goose Shop\u2122\ufe0f.",
+        "name": "Shop Foundations"
+    },
+    "splash.png": {
+        "description": "DM123321_31MD IS YOU!",
+        "name": "DmmD Splash"
+    },
+    "stable.png": {
+        "description": "Internal view of the Stables DmmD made.",
+        "name": "Stables"
+    },
+    "stroke_energy_drink.png": {
+        "description": "The one, the only: Stroke\u2122\ufe0f Energy Drink.",
+        "name": "Stroke\u2122\ufe0f Energy Drink"
+    },
+    "susglass.png": {
+        "description": "Susglass, provided by the Goose Resource Pack.",
+        "name": "Susglass"
+    },
+    "villager_trading_center.png": {
+        "description": "Photo of our pretty mid trading center design that we never really used.",
+        "name": "Villager Trading Center"
+    },
+    "water_fountain.png": {
+        "description": "Photo of Geesetown (and the Water Fountain) in glorious HD w/ Shaders.",
+        "name": "Water Fountain"
+    },
+    "wealth.png": {
+        "description": "Screenshot of the internals of DmmD's valuable shulker (aka \"resources\").",
+        "name": "DmmD's Resources"
+    },
+    "what.png": {
+        "description": "WHAT????",
+        "name": "WHAT????"
+    },
+    "xp_farming.png": {
+        "description": "Photo of the XP farm actually being used for once.",
+        "name": "XP Farming"
+    }
 }
