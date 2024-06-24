@@ -1,8 +1,7 @@
 <!-- Zoom -->
 <div id="zoom">
 	<img src={`src/lib/seasons/${id}/gallery/${url}`} alt={url} />
-	<div>{gallery[url].name}</div>
-	<div>{url}</div>
+	<div>{gallery[url].name} ({url})</div>
 	<div>{gallery[url].description}</div>
 	<a href={`src/lib/seasons/${id}/gallery/${url}`} target="_black" rel="noopener noreferrer" class="soda-link">Open Raw</a>
 	<button class="soda-button" on:click={() => { close(); }}>Close</button>
@@ -17,17 +16,6 @@
 	export let gallery: Season.Gallery;
 	export let id: string;
 	export let url: string;
-
-	// Listens to escape
-	onMount(() => {
-		const listener = (event: KeyboardEvent) => {
-			if(event.key === "Escape") {
-				document.removeEventListener("keydown", listener);
-				close();
-			}
-		};
-		document.addEventListener("keydown", listener);
-	});
 </script>
 
 <!-- Style -->
@@ -47,9 +35,10 @@
 		width: 100%;
 
 		img {
-			height: 60%;
-			object-fit: scale-down;
-			width: 60%;
+			max-height: 60%;
+			width: 100%;
+			object-fit: contain;
+			max-width: 60%;
 		}
 	}
 </style>

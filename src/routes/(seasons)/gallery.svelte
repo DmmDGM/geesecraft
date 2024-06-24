@@ -16,8 +16,8 @@
 				</button>
 			{/if}
 			<div id="images">
-				{#each loadedUrls as loadedUrl}
-					<GalleryImage {gallery} {id} open={() => { zoomUrl = loadedUrl; }} url={loadedUrl} />
+				{#each Object.entries(loadedUrls) as [ loadedIndex, loadedUrl ]}
+					<GalleryImage {gallery} {id} open={() => { zoomIndex = +loadedIndex; }} url={loadedUrl} />
 				{/each}
 			</div>
 		{/if}
@@ -32,8 +32,8 @@
 			</button>
 		{/if}
 	{/if}
-	{#if zoomUrl !== null}
-		<ZoomImage close={() => { zoomUrl = null; }} {gallery} {id} url={zoomUrl}  />
+	{#if zoomIndex !== null}
+		<ZoomImage close={() => { zoomIndex = null; }} {gallery} {id} url={galleryUrls[zoomIndex]}  />
 	{/if}
 </div>
 
@@ -50,7 +50,17 @@
 	// Defines gallery loader
 	let galleryUrls = Object.keys(gallery);
 	let loadedUrls: string[] = [];
-	let zoomUrl: string | null = null;
+	let zoomIndex: number | null = null;
+
+	// Listens to keypress
+	onMount(() => {
+		document.addEventListener("keydown", (event) => {
+			if(zoomIndex === null) return;
+			if(event.key === "Escape") zoomIndex = null;
+			else if(event.key === "ArrowLeft") zoomIndex = Math.max(zoomIndex - 1, 0);
+			else if(event.key === "ArrowRight") zoomIndex = Math.min(zoomIndex + 1, loadedUrls.length - 1);
+		});
+	});
 </script>
 
 <!-- Style -->
