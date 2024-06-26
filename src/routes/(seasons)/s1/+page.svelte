@@ -1,7 +1,7 @@
 {#await season}
 	<!-- Loading -->
 	Loading...
-{:then { data, gallery, id }} 	
+{:then { gallery, id }} 	
 	<!-- Summary -->
 	<div id="summary">
 		hai
