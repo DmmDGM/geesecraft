@@ -1,11 +1,15 @@
 <!-- Zoom -->
 <div id="zoom">
 	{#await import(`$lib/seasons/${id}/gallery/${stripExtension(file)}.png`) then { default: src }}
-		<img {src} alt={file} />
+		<img {src} alt={file} bind:this={image}/>
 	{/await}
 	<div class="content">{gallery[file].name} ({file})</div>
 	<div class="content">{gallery[file].description}</div>
-	<a href={`src/lib/seasons/${id}/gallery/${file}`} target="_black" rel="noopener noreferrer" class="soda-link">Open Raw</a>
+	<a href={typeof image === "undefined" ? "" : image.src}
+		target="_black"
+		rel="noopener noreferrer"
+		class="soda-link">Open Raw
+	</a>
 	<button class="soda-button" on:click={() => { close(); }}>Close</button>
 </div>
 
@@ -17,6 +21,9 @@
 	export let file: string;
 	export let gallery: Season.Gallery;
 	export let id: string;
+
+	// Defines image
+	let image: HTMLImageElement;
 
 	// Defines extension stripper
 	function stripExtension(fileName: string): string {
