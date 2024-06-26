@@ -9,9 +9,12 @@ export default defineConfig({
 		sveltekit(),
 		enhancedImages()
 	],
+	preview: {
+		port: +process.env.PORT || 3000
+	},
 	server: {
-		host: "localhost",
-		port: 3000,
+		host: process.env.HOST || "localhost",
+		port: +process.env.PORT || 3000,
 		strictPort: true
 	}
 });
