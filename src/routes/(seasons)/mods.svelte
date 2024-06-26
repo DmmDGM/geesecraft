@@ -2,7 +2,7 @@
 <div id="mods">
 	<div class="heading">Mods</div>
 	{#each Object.entries(data.mods) as [ modName, modData ]}
-		<a href="{modData.url}" class="soda-link">- {modName} ({modTypes[modData.type]})</a>
+		<a href="{modData.url}" target="_blank" rel="noopener noreferrer" class="soda-link">- {modName} ({modTypes[modData.type]})</a>
 	{/each}
 </div>
 
