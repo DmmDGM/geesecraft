@@ -10,8 +10,8 @@ export default defineConfig({
 		enhancedImages()
 	],
 	server: {
-		host: "localhost",
-		port: 3000,
+		host: process.env.HOST || "localhost",
+		port: +process.env.PORT || 3000,
 		strictPort: true
 	}
 });
