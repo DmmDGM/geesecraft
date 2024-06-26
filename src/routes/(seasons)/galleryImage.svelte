@@ -33,10 +33,25 @@
 		gap: 10px 0px;
 		height: 300px;
 		justify-content: center;
+		max-width: 100%;
 		width: fit-content;
+		word-break: break-all;
+
 
 		img {
 			max-height: 200px;
+			max-width: 100%;
+			object-fit: cover;
+		}
+	}
+
+	@media (max-width: 600px) {
+		#image {
+			height: 200px;
+
+			img {
+				max-height: 50px;
+			}
 		}
 	}
 </style>

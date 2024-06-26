@@ -33,4 +33,10 @@
 			margin: 25px 0px;
 		}
 	}
+	
+	@media (max-width: 1000px) {
+		#sidebar {
+			flex: 1;
+		}
+	}
 </style>

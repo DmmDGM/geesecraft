@@ -2,8 +2,8 @@
 	<!-- Loading -->
 	Loading...
 {:then { data, gallery, id }} 	
-	<!-- Details -->
-	<div id="details">
+	<!-- Summary -->
+	<div id="summary">
 		hai
 		<Gallery {gallery} {id}/>
 	</div>
@@ -26,8 +26,8 @@
 
 <!-- Style -->
 <style lang="scss">
-	// Details
-	#details {
+	// Summary
+	#summary {
 		flex: 1;
 	}
 </style>

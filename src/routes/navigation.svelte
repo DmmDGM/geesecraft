@@ -64,8 +64,15 @@
 	nav {
 		align-items: center;
 		display: flex;
+		gap: 0px 10px;
 		justify-content: space-between;
 		padding: 10px 25px;
+	}
+
+	@media (max-width: 600px) {
+		nav {
+			flex-direction: column;
+		}
 	}
 
 	// Compass
@@ -89,5 +96,11 @@
 	#links {
 		display: flex;
 		gap: 0px 10px;
+	}
+
+	@media (max-width: 600px) {
+		#links {
+			display: none;
+		}
 	}
 </style>

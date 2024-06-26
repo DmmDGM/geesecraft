@@ -1,3 +1,6 @@
+<!-- Window -->
+<svelte:window bind:innerWidth />
+
 {#await season}
 	<!-- Loading -->
 	Loading...
@@ -5,9 +8,17 @@
 	<!-- Season -->
 	<div id="season">
 		<div id="title">{data.name}</div>
+		<div class="soda-button-cluster" id="selector">
+			<button on:click={() => { selection = "summary"; console.log(innerWidth) }}>Summary</button>
+			<button on:click={() => { selection = "details"; }}>Details</button>
+		</div>
 		<div id="content">
-			<slot />
-			<Sidebar {data} />
+			{#if innerWidth > 1000 || selection === "summary"}
+				<slot />
+			{/if}
+			{#if innerWidth > 1000 || selection === "details"}
+				<Sidebar {data} />
+			{/if}
 		</div>
 	</div>
 {/await}
@@ -41,6 +52,10 @@
 	afterUpdate(() => {
 		if(url !== $page.url.pathname) updateSeason();
 	});
+
+	// Defines selector
+	let innerWidth: number;
+	let selection: string = "summary";
 </script>
 
 <!-- Style -->
@@ -59,6 +74,22 @@
 			font-size: 30px;
 			font-weight: bold;
 			line-height: 35px;
+		}
+
+		// Selector
+		#selector {
+			display: none;
+			width: 100%;
+
+			> * {
+				flex: 1;
+			}
+		}
+
+		@media (max-width: 1000px) {
+			#selector {
+				display: flex;
+			}
 		}
 
 		// Content
