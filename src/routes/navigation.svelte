@@ -1,3 +1,10 @@
+<!-- Title -->
+<svelte:head>
+	<title>
+		Geesecraft / {compassPointer.name}
+	</title>
+</svelte:head>
+
 <!-- Navigation -->
 <nav>
 	<!-- Compass -->

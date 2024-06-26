@@ -1,9 +1,11 @@
 <!-- Zoom -->
 <div id="zoom">
-	<img src={`src/lib/seasons/${id}/gallery/${url}`} alt={url} />
-	<div class="content">{gallery[url].name} ({url})</div>
-	<div class="content">{gallery[url].description}</div>
-	<a href={`src/lib/seasons/${id}/gallery/${url}`} target="_black" rel="noopener noreferrer" class="soda-link">Open Raw</a>
+	{#await import(`$lib/seasons/${id}/gallery/${stripExtension(file)}.png`) then { default: src }}
+		<img {src} alt={file} />
+	{/await}
+	<div class="content">{gallery[file].name} ({file})</div>
+	<div class="content">{gallery[file].description}</div>
+	<a href={`src/lib/seasons/${id}/gallery/${file}`} target="_black" rel="noopener noreferrer" class="soda-link">Open Raw</a>
 	<button class="soda-button" on:click={() => { close(); }}>Close</button>
 </div>
 
@@ -11,11 +13,15 @@
 <script lang="ts">
 	// Imports
 	import type { Season } from "$lib/types/season";
-	import { onMount } from "svelte";
 	export let close: () => void;
+	export let file: string;
 	export let gallery: Season.Gallery;
 	export let id: string;
-	export let url: string;
+
+	// Defines extension stripper
+	function stripExtension(fileName: string): string {
+		return fileName.split(".").slice(0, -1).join(".");
+	}
 </script>
 
 <!-- Style -->

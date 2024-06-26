@@ -1,43 +1,43 @@
 <!-- Gallery -->
 <div id="gallery">
 	<div class="heading">Gallery</div>
-	{#if galleryUrls.length === 0}
+	{#if galleryFiles.length === 0}
 		<div class="content">Nothing to Show... Sorry</div>
 	{:else}
-		{#if loadedUrls.length !== 0}
-			{#if loadedUrls.length !== galleryUrls.length}
+		{#if loadedFiles.length !== 0}
+			{#if loadedFiles.length !== galleryFiles.length}
 				<div class="soda-button-cluster loader">
 					<button on:click={() => {
-						loadedUrls = galleryUrls.slice(0, loadedUrls.length + 10);
-					}}> Load More ({galleryUrls.length - loadedUrls.length} Left)
+						loadedFiles = galleryFiles.slice(0, loadedFiles.length + 10);
+					}}> Load More ({galleryFiles.length - loadedFiles.length} Left)
 					</button>
 					<button on:click={() => {
-						loadedUrls = galleryUrls;
-					}}> Load All ({galleryUrls.length - loadedUrls.length} Left)
+						loadedFiles = galleryFiles;
+					}}> Load All ({galleryFiles.length - loadedFiles.length} Left)
 					</button>
 				</div>
 			{/if}
 			<div id="images">
-				{#each Object.entries(loadedUrls) as [ loadedIndex, loadedUrl ]}
-					<GalleryImage {gallery} {id} open={() => { zoomIndex = +loadedIndex; }} url={loadedUrl} />
+				{#each Object.entries(loadedFiles) as [ loadedIndex, loadedFile ]}
+					<GalleryImage {gallery} {id} open={() => { zoomIndex = +loadedIndex; }} file={loadedFile} />
 				{/each}
 			</div>
 		{/if}
-		{#if loadedUrls.length !== galleryUrls.length}
+		{#if loadedFiles.length !== galleryFiles.length}
 				<div class="soda-button-cluster loader">
 					<button on:click={() => {
-						loadedUrls = galleryUrls.slice(0, loadedUrls.length + 10);
-					}}> Load More ({galleryUrls.length - loadedUrls.length} Left)
+						loadedFiles = galleryFiles.slice(0, loadedFiles.length + 10);
+					}}> Load More ({galleryFiles.length - loadedFiles.length} Left)
 					</button>
 					<button on:click={() => {
-						loadedUrls = galleryUrls;
-					}}> Load All ({galleryUrls.length - loadedUrls.length} Left)
+						loadedFiles = galleryFiles;
+					}}> Load All ({galleryFiles.length - loadedFiles.length} Left)
 					</button>
 				</div>
 		{/if}
 	{/if}
 	{#if zoomIndex !== null}
-		<ZoomImage close={() => { zoomIndex = null; }} {gallery} {id} url={galleryUrls[zoomIndex]}  />
+		<ZoomImage close={() => { zoomIndex = null; }} {gallery} {id} file={galleryFiles[zoomIndex]}  />
 	{/if}
 </div>
 
@@ -52,8 +52,8 @@
 	export let id: string;
 
 	// Defines gallery loader
-	let galleryUrls = Object.keys(gallery);
-	let loadedUrls: string[] = [];
+	let galleryFiles = Object.keys(gallery);
+	let loadedFiles: string[] = [];
 	let zoomIndex: number | null = null;
 
 	// Listens to keypress
@@ -62,7 +62,7 @@
 			if(zoomIndex === null) return;
 			if(event.key === "Escape") zoomIndex = null;
 			else if(event.key === "ArrowLeft") zoomIndex = Math.max(zoomIndex - 1, 0);
-			else if(event.key === "ArrowRight") zoomIndex = Math.min(zoomIndex + 1, loadedUrls.length - 1);
+			else if(event.key === "ArrowRight") zoomIndex = Math.min(zoomIndex + 1, loadedFiles.length - 1);
 		});
 	});
 </script>
