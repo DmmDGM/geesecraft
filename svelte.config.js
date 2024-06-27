@@ -7,6 +7,9 @@ const config = {
 	kit: {
 		adapter: adapter()
 	},
+	onwarn: (warning, handler) => {
+        if (warning.code !== "css-unused-selector") handler(warning);
+    },
 	preprocess: sveltePreprocess()
 };
 
