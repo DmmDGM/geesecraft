@@ -69,17 +69,27 @@
     @use "sass:math";
 
     // Constants
-    $splash-height: math.div(385px, 2);
+    $gap: 40px;  // Gap between home elements
+    $padding: 25px;  // Comes from +layout.svelte
+    $splash-height: math.div(385px, 2);  // Splash Height / 2
+
+    // Mixins
+    @mixin flex($direction, $item-gap: 0px) {
+        display: flex;
+        flex-direction: $direction;
+
+        @if $item-gap != 0px {
+            gap: $item-gap;
+        }
+    }
 
     // Homepage
     #home {
+        @include flex(column, $gap);
         align-items: center;
-        display: flex;
-        flex-direction: column;
-        gap: 40px;
 
         // 50% view height - half of splash height - top padding
-        margin-top: calc(50vh - $splash-height - 20px);
+        margin-top: calc(50vh - $splash-height - $padding);
 
         // Title & subtitle
         #title {
@@ -94,29 +104,22 @@
 
     // Home rows
     #home-rows {
-        gap: 50px;
-        display: flex;
-        flex-direction: column;
+        @include flex(column, 50px);
 
         // 50% view height - half of splash height - flex gap
-        margin-top: calc(50vh - $splash-height - 40px);
+        margin-top: calc(50vh - $splash-height - $gap);
         margin-bottom: 10%;
 
         // Row styling
         div {
-            gap: 25px;
-            display: flex;
-            flex-direction: row;
+            @include flex(row, 25px);
 
             // Text detail styling
             .row-details {
-                gap: 10px;
-                display: flex;
-                flex-direction: column;
-        
+                @include flex(column, 10px);
                 align-items: center;
                 justify-content: center;
-        
+
                 // I'm not lazy, I swear.
                 max-width: 600px;
             }
@@ -125,15 +128,10 @@
 
     // Images
     #images {
-        gap: 15px;
-        display: flex;
-        flex-direction: row;
+        @include flex(row, 15px);
     }
     #members {
-        gap: 20px;
-        display: flex;
-        flex-direction: row;
-
+        @include flex(row, 20px);
         img {
             height: 75px;
         }
