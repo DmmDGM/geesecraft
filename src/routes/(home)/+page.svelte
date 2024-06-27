@@ -66,6 +66,11 @@
 
 <!-- Style -->
 <style lang="scss">
+    @use "sass:math";
+
+    // Constants
+    $splash-height: math.div(385px, 2);
+
     // Homepage
     #home {
         align-items: center;
@@ -73,8 +78,8 @@
         flex-direction: column;
         gap: 40px;
 
-        // I don't wanna hear it
-        margin-top: 13%;
+        // 50% view height - half of splash height - top padding
+        margin-top: calc(50vh - $splash-height - 20px);
 
         // Title & subtitle
         #title {
@@ -89,7 +94,12 @@
 
     // Home rows
     #home-rows {
-        margin-top: 20%;  // Like I said, I don't wanna hear about it.
+        gap: 50px;
+        display: flex;
+        flex-direction: column;
+
+        // 50% view height - half of splash height - flex gap
+        margin-top: calc(50vh - $splash-height - 40px);
         margin-bottom: 10%;
 
         // Row styling
