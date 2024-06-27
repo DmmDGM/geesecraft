@@ -62,7 +62,6 @@
 <script lang="ts">
 	// Imports
 	import uuids from "$lib/data/uuids.json";
-    console.log(uuids);
 </script>
 
 <!-- Style -->
