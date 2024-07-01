@@ -1,3 +1,46 @@
 {
-	
+    "fake_first_diamond.png": {
+        "description": "First diamond in Season 5 of Geesecraft (or at least DmmD thinks it is).",
+        "name": "First Diamond"
+    },
+    "iipython_couple_arrows.png": {
+        "description": "iiPython with \"a couple of arrows\" inside of his body.",
+        "name": "Couple of Arrows"
+    },
+    "k4_on_the_moon.png": {
+        "description": "K4ffu on the moon.",
+        "name": "K4 on the Moon"
+    },
+    "k4s_base.png": {
+        "description": "K4ffu's Base on day 3 (no way im playing this time, epico!).",
+        "name": "K4's Base"
+    },
+    "main_base.png": {
+        "description": "The main base DmmD and iiPython use.",
+        "name": "Main Base"
+    },
+    "mending_villager.png": {
+        "description": "K4ffu's villager with mending.",
+        "name": "Mending Villager"
+    },
+    "t2_rocket.png": {
+        "description": "First Tier 2 rocket of the Season, with K4ffu standing next to it.",
+        "name": "Tier 2 Rocket"
+    },
+    "tc_molten_iron.png": {
+        "description": "Tinkers' Construct with molten iron filling to the brim of the container.",
+        "name": "Molten Iron"
+    },
+    "tinker_furnace.png": {
+        "description": "The massive smeltery in DmmD and iiPython's basement (for Tinkers' Construct).",
+        "name": "Tinker Smeltery"
+    },
+    "weird_cave_structure.png": {
+        "description": "Weird structure found in cave.",
+        "name": "Weird Cave Structure"
+    },
+    "zombie_villager.png": {
+        "description": "K4ffu's Zombie Villager (he fell for the oldest trick in the book).",
+        "name": "Zombie Villager"
+    }
 }

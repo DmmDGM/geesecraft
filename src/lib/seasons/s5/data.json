@@ -75,6 +75,10 @@
             "type": "mod",
             "url": "https://modrinth.com/mod/the-bumblezone-fabric"
         },
+		"Traveler's Backpack": {
+			"type": "mod",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/travelers-backpack-fabric"
+		},
 		"UU-Extended": {
 			"type": "mod",
 			"url": "https://modrinth.com/mod/uu-extended"
