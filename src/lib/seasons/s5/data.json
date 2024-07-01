@@ -1,13 +1,14 @@
 {
 	"accomplishments": [],
-	"active": false,
+	"active": true,
 	"description": "The next generation Geesecraft season.",
 	"end": null,
 	"members": {
 		"d9736929-859d-478a-8575-02cc397673d7": "DmmDGaming",
 		"bf0f7598-e7fe-4e09-b7a2-a1289d907bbd": "ernistus",
 		"617d0b8a-148f-47c0-b4f4-36dfe1ac79c7": "eunyung",
-		"8018c39c-3d81-434e-a02d-6e0813340fd6": "iiPythonx"
+		"8018c39c-3d81-434e-a02d-6e0813340fd6": "iiPythonx",
+		"a695d266-e3fe-4931-a961-0d8eafc0385d": "LittleHebo"
 	},
 	"mods": {
 		"Ad Astra": {
