@@ -40,7 +40,7 @@
 			"url": "https://www.curseforge.com/minecraft/mc-mods/croptopia"
 		},
         "Discord Integration": {
-            "type": "mod",
+            "type": "plugin",
             "url": "https://modrinth.com/plugin/dcintegration"
         },
         "Hephaestus": {
@@ -58,6 +58,10 @@
 		"Megane": {
 			"type": "mod",
 			"url": "https://modrinth.com/mod/megane"
+		},
+		"Mine Cells": {
+			"type": "mod",
+			"url": "https://modrinth.com/mod/minecells"
 		},
         "Paladin's Furniture": {
             "type": "mod",

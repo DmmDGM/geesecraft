@@ -1,4 +1,12 @@
 {
+    "beebert.png": {
+        "description": "Beebert the Bee lokey chillin'.",
+        "name": "Beebert"
+    },
+    "drag_on_deez_nuts.png": {
+        "description": "The dragon egg, in the wrong hands.",
+        "name": "Dragon Egg"
+    },
     "fake_first_diamond.png": {
         "description": "First diamond in Season 5 of Geesecraft (or at least DmmD thinks it is).",
         "name": "First Diamond"
@@ -19,9 +27,17 @@
         "description": "The main base DmmD and iiPython use.",
         "name": "Main Base"
     },
+    "max_tier_rocket.png": {
+        "description": "The best tier rocket available in Ad Astra, made out of ostrum.",
+        "name": "Max Tier Rocket"
+    },
     "mending_villager.png": {
         "description": "K4ffu's villager with mending.",
         "name": "Mending Villager"
+    },
+    "rich_as_fuck.png": {
+        "description": "Screenshot of one chest full of Lapotron crystals (65 in total, both chests), expensive as hell.",
+        "name": "Lapotron Crystals"
     },
     "t2_rocket.png": {
         "description": "First Tier 2 rocket of the Season, with K4ffu standing next to it.",
