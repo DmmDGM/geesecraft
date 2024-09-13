@@ -1,8 +1,8 @@
 {
 	"accomplishments": [],
-	"active": true,
+	"active": false,
 	"description": "The next generation Geesecraft season.",
-	"end": null,
+	"end": 1725494400000,
 	"members": {
 		"d9736929-859d-478a-8575-02cc397673d7": "DmmDGaming",
 		"bf0f7598-e7fe-4e09-b7a2-a1289d907bbd": "ernistus",
@@ -99,5 +99,5 @@
 	"name": "Season 5",
 	"start": 1719446400000,
 	"version": "1.20.1",
-	"world": null
+	"world": "https://cdn.iipython.dev/geesecraft/GC_S5M.7z"
 }
