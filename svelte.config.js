@@ -5,7 +5,9 @@ import { sveltePreprocess } from "svelte-preprocess";
 /** @type {import("@sveltejs/kit").Config} */
 const config = {
 	kit: {
-		adapter: adapter()
+		adapter: adapter({
+			fallback: "404.html"
+		})
 	},
 	onwarn: (warning, handler) => {
         if (warning.code !== "css-unused-selector") handler(warning);
