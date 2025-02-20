@@ -1,7 +1,23 @@
 {
+    "america.png": {
+        "description": "Nothing more American then carrying 6 buckets of oil in your backpack.",
+        "name": "Lots of Oil"
+    },
+    "bee_dimension.png": {
+        "description": "A single bee just vibing in the bee dimension.",
+        "name": "Bee Dimension"
+    },
     "beebert.png": {
         "description": "Beebert the Bee lokey chillin'.",
         "name": "Beebert"
+    },
+    "caged_dmmd.png": {
+        "description": "DmmD in a cage from Mine Cells.",
+        "name": "Caged DmmD"
+    },
+    "dmmd_grave_bee_dimension.png": {
+        "description": "DmmD's grave surrounded by pissed off bees in the bee dimension.",
+        "name": "DmmD's Grave"
     },
     "drag_on_deez_nuts.png": {
         "description": "The dragon egg, in the wrong hands.",
@@ -15,6 +31,10 @@
         "description": "iiPython with \"a couple of arrows\" inside of his body.",
         "name": "Couple of Arrows"
     },
+    "jet_suit.png": {
+        "description": "A full Ad Astra jet suit ready for launch.",
+        "name": "Jet Suit"
+    },
     "k4_on_the_moon.png": {
         "description": "K4ffu on the moon.",
         "name": "K4 on the Moon"
@@ -23,9 +43,29 @@
         "description": "K4ffu's Base on day 3 (no way im playing this time, epico!).",
         "name": "K4's Base"
     },
+    "main_base_exterior_2.png": {
+        "description": "Second photo of the DmmD-iiPython base exterior.",
+        "name": "Main Base Exterior (2)"
+    },
+    "main_base_exterior.png": {
+        "description": "Photo of the DmmD-iiPython base exterior, with the dome centered.",
+        "name": "Main Base Exterior"
+    },
+    "main_base_interior.png": {
+        "description": "The interior of the main base, highlighting our nice furniture (not pictured: Tech Reborn machines).",
+        "name": "Main Base Interior"
+    },
     "main_base.png": {
         "description": "The main base DmmD and iiPython use.",
-        "name": "Main Base"
+        "name": "Main Base (old)"
+    },
+    "main_basement_2.png": {
+        "description": "Second photo of our main basement, with our multiblock Tech Reborn machines.",
+        "name": "Basement (2)"
+    },
+    "main_basement.png": {
+        "description": "The main basement, featuring a Mine Cells gateway and our multiblock machines.",
+        "name": "Basement"
     },
     "max_tier_rocket.png": {
         "description": "The best tier rocket available in Ad Astra, made out of ostrum.",
@@ -35,6 +75,14 @@
         "description": "K4ffu's villager with mending.",
         "name": "Mending Villager"
     },
+    "netherite_jetpack.png": {
+        "description": "A fully charged netherite jetpack, with a casual 64 million E capacity.",
+        "name": "Netherite Jetpack"
+    },
+    "netherite_mine.png": {
+        "description": "Photo of our netherite mine, which wiped out nearly everything on y=15.",
+        "name": "Netherite Mine"
+    },
     "rich_as_fuck.png": {
         "description": "Screenshot of one chest full of Lapotron crystals (65 in total, both chests), expensive as hell.",
         "name": "Lapotron Crystals"
@@ -43,6 +91,10 @@
         "description": "First Tier 2 rocket of the Season, with K4ffu standing next to it.",
         "name": "Tier 2 Rocket"
     },
+    "tad_of_netherite.png": {
+        "description": "Just a bit of netherite materials, extracted from our mine.",
+        "name": "Tad of Netherite"
+    },
     "tc_molten_iron.png": {
         "description": "Tinkers' Construct with molten iron filling to the brim of the container.",
         "name": "Molten Iron"
@@ -50,6 +102,10 @@
     "tinker_furnace.png": {
         "description": "The massive smeltery in DmmD and iiPython's basement (for Tinkers' Construct).",
         "name": "Tinker Smeltery"
+    },
+    "warden.png": {
+        "description": "A warden trying to wipe out iiPython, meanwhile I had a jetpack.",
+        "name": "Warden"
     },
     "weird_cave_structure.png": {
         "description": "Weird structure found in cave.",
