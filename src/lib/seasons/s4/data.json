@@ -8,7 +8,7 @@
 	],
 	"active": false,
 	"description": "Geesecraft Season 4: Modded Mess",
-	"end": 1726790400000,
+	"end": 1695254400000,
 	"members": {
 		"d9736929-859d-478a-8575-02cc397673d7": "DmmDGaming",
 		"bf0f7598-e7fe-4e09-b7a2-a1289d907bbd": "Ernesto",
@@ -71,7 +71,7 @@
 		}
 	},
 	"name": "Season 4",
-	"start": 1719360000000,
+	"start": 1687824000000,
 	"version": "1.20.1",
 	"world": "https://cdn.iipython.dev/geesecraft/GC_S4M.7z"
 }
